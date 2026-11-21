@@ -1,0 +1,25 @@
+{
+  "name": "minha-ong",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build",
+    "preview": "vp preview"
+  },
+  "devDependencies": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8000",
+    "vite-plus": "1.7.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8000"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "12.2.3",
+      "onFail": "download"
+    }
+  }
+}
