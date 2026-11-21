@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/api/health", (req, res) => {
-  res.json({ status: "ok", app: "ConectaDoa", hora: new Date().toISOString() });
+  res.json({ status: "ok", app: "Léo 300", hora: new Date().toISOString() });
 });
 
 const PORT = process.env.PORT || 3000;

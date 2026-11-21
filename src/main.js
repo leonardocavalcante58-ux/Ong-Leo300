@@ -2,7 +2,7 @@ import "./style.css";
 
 const app = document.querySelector("#app");
 app.innerHTML = `
-  <h1>ConectaDoa</h1>
+  <h1>Léo 300</h1>
   <p>Status da API: <strong id="status">verificando...</strong></p>
 `;
 

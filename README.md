@@ -1,6 +1,6 @@
-# ConectaDoa
+# Léo 300
 
-Sistema de gestão de doações para a ONG ConectaDoa.
+Sistema de gestão de doações para a ONG Léo 300.
 Projeto Integrador Extensionista · ADS.
 
 ## Requisitos
@@ -11,8 +11,8 @@ Projeto Integrador Extensionista · ADS.
 ## Como rodar
 
 1. Clone o repositório e entre na pasta:
-   git clone https://github.com/leonardocavalcante58-ux/minha-ong.git
-   cd minha-ong
+   git clone https://github.com/leonardocavalcante58-ux/Ong-Leo300.git
+   cd Ong-Leo300
 2. Instale as dependências: vp install
 3. Copie .env.example para .env
 4. Terminal 1, inicie a API: vp run api
