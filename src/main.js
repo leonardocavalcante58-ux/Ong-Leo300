@@ -11,7 +11,7 @@ async function verificarApi() {
   try {
     const resposta = await fetch("/api/health");
     const dados = await resposta.json();
-    status.textContent = `${dados.status} (${dados.hora})`;
+    status.textContent = `${dados.status} (${new Date(dados.hora).toLocaleString("pt-BR")})`;
   } catch {
     status.textContent = "API fora do ar";
   }
